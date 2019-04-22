@@ -1,0 +1,13 @@
+  O código está implementado na linguagem Python, onde o objetivo é fazer um ataque
+de brute force no host que esteja com serviço de SSH ativo.
+
+Passos para executar o código no Linux.
+1. Você precisa instalar o Python no seu PC e baixar o programa do github.
+2. Você precisa abrir o terminal e até a pasta onde está o programa.
+3. Você precisa rodar o comando no terminal python code.py.
+4. Na execução do programa é preciso informar o IP do host de ataque e a porta
+   se for diferente da padrão que é 22.
+5. O programa irá perguntar se você desejar realizar o ataque.
+6. E por fim ele irá começar a fazer o ataque de brute force testando as combinações
+   de login que está no arquivo userpasswd.txt. Caso acerte as combinações, o programa
+   irá lhe da uma mensagem de “Conexão SSH realizada com sucesso”, caso contrário, “Erro na conexão SSH”.
