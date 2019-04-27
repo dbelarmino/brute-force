@@ -1,2 +1,2 @@
-usuario, senha
-usuario, senha
+user, password
+user, password
